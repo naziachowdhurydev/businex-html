@@ -133,3 +133,51 @@
     color: #080b1a;
     font-weight: bold;
 }
+
+/* service area */
+.service-area {
+    background-image: url(/asstes/bg-2.jpg);
+    height: 350px;
+    background-color: rgb(8, 11, 26, .2);
+}
+
+.service-area-content {
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.service-area-content h5 {
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.service-area-content h3 {
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.service-pic-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pic {
+    text-align: center;
+}
+
+.service-pic {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-data {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 25px;
+}
