@@ -28,7 +28,12 @@
     column-gap: 20px;
 }
 
+.nav-list ul a {
+    text-decoration: none;
+}
+
 .nav-list ul li {
+    text-decoration: none;
     color: rgb(234, 234, 234);
     list-style: none;
     font-size: 15px;
@@ -185,6 +190,48 @@
     font-size: 20px;
     color: black;
     margin-bottom: 25px;
+}
+
+s
+
+/* icon area */
+.icon-area {
+    padding: 25px 0;
+    height: 90px;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.icon-content {
+    width: 25%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 13px;
+}
+
+.icon-logo {
+    margin: 10px 0;
+    width: 30%;
+}
+
+.icon-logo img {
+    width: 100%;
+}
+
+.icon-info h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.icon-info h4 {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0;
 }
 
 /* testimonial side */

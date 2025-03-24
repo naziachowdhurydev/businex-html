@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 110px;
+    height: 30px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.nav-list ul a {
+    text-decoration: none;
+}
+
+.nav-list ul li {
+    color: rgb(234, 234, 234);
+    list-style: none;
+    font-size: 15px;
+}
+
+.nav-num-info {
+    color: aliceblue;
+    display: flex;
+    column-gap: 10px;
+}
+
+.no {
+    font-size: 20px;
+}
+
+.nav-icon {
+    font-size: 15px;
+    align-content: center;
+}
+
+/* banner side */
+.banner {
+    background-image: url(/about/about-img/banner-bg.jpg);
+    height: 400px;
+}
+
+.banner-content {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.banner h3 {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner p {
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* aboure area */
+.about-area {
+    background-image: url(about-img/area-bg.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-area-content {
+    width: 50%;
+    padding-top: 120px;
+}
+
+.about-area-content h4 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.about-area-content h2 {
+    font-size: 37px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.about-area-content span {
+    font-size: 24px;
+    color: rgb(171, 171, 171);
+}
+
+.about-area-content p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.about-area-content a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+/* service area */
+.service-main {
+    width: 100%;
+    height: 900px;
+}
+
+.service-area {
+    background-image: url(/asstes/img/bg-2.jpg);
+    height: 350px;
+    background-color: rgb(8, 11, 26, .2);
+}
+
+.service-area-content {
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.service-area-content h5 {
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.service-area-content h3 {
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.service-pic-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pic {
+    text-align: center;
+}
+
+.service-pic {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-data {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+/* icon area */
+.icon-area {
+    padding: 25px 0;
+    height: 90px;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.icon-content {
+    width: 25%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 13px;
+}
+
+.icon-logo {
+    margin: 10px 0;
+    width: 30%;
+}
+
+.icon-logo img {
+    width: 100%;
+}
+
+.icon-info h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.icon-info h4 {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+/* testimonial side */
+.tesimonial-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tesimonial-content img {
+    height: 500px;
+}
+
+.testimonial-info {
+    padding: 80px 0;
+    width: 50%;
+}
+
+.testimonial-info h4 {
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(145, 145, 145);
+    padding-bottom: 5px;
+}
+
+.testimonial-info h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 13px 0;
+}
+
+.testimonial-info h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.testimonial-info img {
+    width: 20px;
+    height: 20px;
+    padding-top: 50px;
+}
+
+.testimonial-info p {
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(146, 146, 146);
+    padding: 15px 0;
+}
+
+.testimonial-info h6 {
+    font-size: 15px;
+    font-weight: 100;
+}
