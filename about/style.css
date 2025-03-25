@@ -264,3 +264,190 @@
     font-size: 15px;
     font-weight: 100;
 }
+
+/* creative area */
+.creative {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.creative-info {
+    display: flex;
+
+}
+
+.creative-content {
+    padding: 90px 0;
+    margin: 40px 80px;
+}
+
+.creative-content h4 {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.creative-content h2 {
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.creative-content p {
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.creative-bg {
+    width: 75%;
+    background-image: url(/about/about-img/creative-bg.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.creative-content2 {
+
+    width: 65%;
+    display: flex;
+    column-gap: 25px;
+}
+
+.creative-content2 .images {
+    padding-top: 80px;
+    height: 320px;
+}
+
+/* logo slider */
+.logo-slider {
+    margin: 40px 0;
+    width: 100%;
+    height: 100px;
+    padding-top: 45px;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* fun fact area */
+.fun-fact-area {
+    width: 100%;
+    height: 200px;
+}
+
+.fun-fact-iteam {
+    background-image: url(/asstes/img/bg-4.jpg);
+    height: 200px;
+}
+
+.fun-fact-content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fact h4 {
+    font-size: 20px;
+    color: aliceblue;
+    padding: 20px 0;
+}
+
+.fact h2 {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+footer {
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+.footer-content {
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 45%;
+}
+
+.info h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.info p {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.button button {
+    border: 1px solid none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    color: #080b1a;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #080b1a;
+    color: white;
+}
+
+.footer-iteam {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-box {
+    width: 20%;
+}
+
+.footer-box img {
+    padding-bottom: 20px;
+    width: 60%;
+
+}
+
+.footer-box p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.footer-box h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-box ul {
+    padding: 20px 0;
+}
+
+.footer-box ul a {
+
+    text-decoration: none;
+    color: #080b1a;
+}
+
+.footer-box ul a li {
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.footer-box address {
+    padding-top: 20px;
+    line-height: 2;
+}
