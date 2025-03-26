@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 110px;
+    height: 30px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.nav-list ul a {
+    text-decoration: none;
+}
+
+.nav-list ul li {
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+    list-style: none;
+    font-size: 15px;
+}
+
+.nav-num-info {
+    color: aliceblue;
+    display: flex;
+    column-gap: 10px;
+}
+
+.no {
+    font-size: 20px;
+}
+
+.nav-icon {
+    font-size: 15px;
+    align-content: center;
+}
+
+/* content contact side */
+.contact-info {
+    margin: 90px 0;
+}
+
+.contact-data {
+    display: flex;
+}
+
+.contact-content {
+    width: 60%;
+    height: 600px;
+    padding-left: 20px;
+    border: 1px solid rgb(226, 223, 223);
+}
+
+.contact-content h2 {
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.contact-content .row input {
+    padding: 13px 25px;
+    border: 1px solid rgb(222, 222, 222);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 15px
+}
+
+
+.contact-content label textarea {
+    border: 1px solid #eee;
+    color: #151515;
+    font-weight: 400;
+    display: block;
+    width: 479px;
+    height: 220px;
+    padding: 15px 20px;
+}
+
+.contact-content .btn button {
+    border: 1px solid none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    color: #080b1a;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn button:hover {
+    background-color: #080b1a;
+    color: white;
+}
+
+.contact-content1 {
+    width: 40%;
+    height: 403px;
+    background: black;
+    padding-top: 200px;
+}
+
+.contact-content1 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 252, 252);
+    text-align: center;
+}
+
+.contact-content1 address {
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-content1 address span {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 254, 254);
+    text-align: center;
+
+}
+
+.contact-content1 .logo {
+    margin-left: 165px;
+}
+
+.contact-content1 .logo i {
+    color: white;
+
+}
+
+/* footer area */
+footer {
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+.footer-content {
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 45%;
+}
+
+.info h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.info p {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.button button {
+    border: 1px solid none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    color: #080b1a;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #080b1a;
+    color: white;
+}
+
+.footer-iteam {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-box {
+    width: 20%;
+}
+
+.footer-box img {
+    padding-bottom: 20px;
+    width: 60%;
+
+}
+
+.footer-box p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.footer-box h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-box ul {
+    padding: 20px 0;
+}
+
+.footer-box ul a {
+
+    text-decoration: none;
+    color: #080b1a;
+}
+
+.footer-box ul a li {
+    list-style: none;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.footer-box address {
+    padding-top: 20px;
+    line-height: 2;
+}
